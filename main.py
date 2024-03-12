@@ -14,25 +14,29 @@ def process_and_analyze_foot(cropped_img, side):
             black_ratio, white_ratio = calculate_black_white_ratio(cropped_img)
 
             # 输出白色像素占比
-            print(f"{side}脚 - 白色像素占比: {white_ratio:.2%}")
+            # print(f"{side}脚 - 白色像素占比: {white_ratio:.2%}")
 
             # 判断足型并输出相应信息
             if 0.35 < white_ratio < 0.75:
                 print(f"{side}脚 - 足型：正常")
+                print("建议：选择舒适合脚的鞋类，适度进行足弓锻炼，定期检查足部健康。")
             elif white_ratio <= 0.35:
                 print(f"{side}脚 - 足型：高弓足")
+                print("建议：选择具有足弓缓震设计的鞋款，进行足部柔软度和伸展锻炼。")
             else:
                 print(f"{side}脚 - 足型：扁平足")
+                print("建议：选择具有良好足弓支撑的鞋款，使用定制或适用于扁平足的矫形鞋垫，进行足弓锻炼。")
         else:
             print(f"{side}脚 - 无法读取图片，请检查路径是否正确。")
+    except ZeroDivisionError:
+        print(f"{side}脚 - 图片中没有白色像素，无法计算比例。")
     except Exception as e:
         print(f"{side}脚 - 发生异常: {str(e)}")
 
 
 
-
 # 导入处理图片路径
-img_path = 'sample_images/foot.jpg'
+img_path = 'sample_images/foot2.jpg'
 
 # 调用函数裁剪塑料板部分  
 result_image = crop_plastic_board(img_path)
