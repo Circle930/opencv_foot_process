@@ -36,7 +36,7 @@ def process_and_analyze_foot(cropped_img, side):
 
 
 # 导入处理图片路径
-img_path = 'sample_images/foot2.jpg'
+img_path = 'sample_images/foot1.jpg'
 
 # 调用函数裁剪塑料板部分  
 result_image = crop_plastic_board(img_path)
