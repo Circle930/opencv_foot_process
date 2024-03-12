@@ -17,7 +17,7 @@ def process_and_analyze_foot(cropped_img, side):
             print(f"{side}脚 - 白色像素占比: {white_ratio:.2%}")
 
             # 判断足型并输出相应信息
-            if 0.35 < white_ratio < 0.60:
+            if 0.35 < white_ratio < 0.75:
                 print(f"{side}脚 - 足型：正常")
             elif white_ratio <= 0.35:
                 print(f"{side}脚 - 足型：高弓足")

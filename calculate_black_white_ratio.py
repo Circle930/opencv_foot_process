@@ -2,25 +2,38 @@ import cv2
 import numpy as np
 
 def calculate_black_white_ratio(img):
+    black_pixels = 0
+    white_pixels = 0
+    trashcan_started = False
 
-    # 计算黑色和白色像素的数量
-    total_pixels = img.size
-    black_pixels = np.sum(img == 0)
-    white_pixels = total_pixels - black_pixels
+    # 获取图像高度和宽度
+    height, width = img.shape[:2]
+
+    for i in range(height):
+        for j in range(width):
+            pixel_value = img[i, j]
+
+            # 使用np.any检查是否存在非零值
+            if np.any(pixel_value != 0):
+                white_pixels += 1
+                trashcan_started = False
+            elif not trashcan_started:
+                black_pixels += 1
+            else:
+                break
 
     # 计算黑白像素的比例
+    total_pixels = black_pixels + white_pixels
     black_white_ratio = black_pixels / total_pixels, white_pixels / total_pixels
 
     return black_white_ratio
 
 # # 示例用法
-# image_path = 'sample_images/LL.jpg'
-# image = cv2.imread(image_path)
+# image_path = 'sample_images/BWR.jpg'
+# img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
-# if image is not None:
-#     # 计算黑白像素的比例
-#     black_ratio, white_ratio = calculate_black_white_ratio(image)
-#     print(f"黑色像素占比: {black_ratio:.2%}")
-#     print(f"白色像素占比: {white_ratio:.2%}")
+# if img is not None:
+#     result = calculate_black_white_ratio(img)
+#     print(f"黑色像素占比: {result[0]:.2%}, 白色像素占比: {result[1]:.2%}")
 # else:
 #     print("无法读取图片，请检查路径是否正确。")
