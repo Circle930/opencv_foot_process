@@ -36,7 +36,7 @@ def process_and_analyze_foot(cropped_img, side):
 
 
 # 导入处理图片路径
-img_path = 'sample_images/foot1.jpg'
+img_path = 'sample_images/foot.jpg'
 
 # 调用函数裁剪塑料板部分  
 result_image = crop_plastic_board(img_path)
@@ -52,5 +52,5 @@ process_image_L, cropped_img_L = process_image(left_half)
 process_image_R, cropped_img_R = process_image(right_half)
 
 # 调用函数判断左右脚的足型
-process_and_analyze_foot(cropped_img_L, "左")
-process_and_analyze_foot(cropped_img_R, "右")
+process_and_analyze_foot(cropped_img_L, "您的左")
+process_and_analyze_foot(cropped_img_R, "您的右")

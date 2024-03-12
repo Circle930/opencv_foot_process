@@ -52,12 +52,12 @@ process_image_L, cropped_img_L = process_image(left_half)
 process_image_R, cropped_img_R = process_image(right_half)
 
 # 调用函数判断左右脚的足型
-process_and_analyze_foot(cropped_img_L, "左")
-process_and_analyze_foot(cropped_img_R, "右")
+process_and_analyze_foot(cropped_img_L, "您的左")
+process_and_analyze_foot(cropped_img_R, "您的右")
 
 
 
-##########################################################################
+#----------------------------------------------------------------
 
 
 
