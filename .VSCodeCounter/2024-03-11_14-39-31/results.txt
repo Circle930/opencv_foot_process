@@ -1,0 +1,33 @@
+Date : 2024-03-11 14:39:31
+Directory : /Users/circle/Desktop/foot_process
+Total : 8 files,  185 codes, 125 comments, 118 blanks, all 428 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |          7 |        179 |        125 |        116 |        420 |
+| Markdown |          1 |          6 |          0 |          2 |          8 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                         | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                            |          8 |        185 |        125 |        118 |        428 |
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                     | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/circle/Desktop/foot_process/README.md                 | Markdown |          6 |          0 |          2 |          8 |
+| /Users/circle/Desktop/foot_process/crop_plastic_board.py     | Python   |         12 |         16 |         12 |         40 |
+| /Users/circle/Desktop/foot_process/detect_foot_direction.py  | Python   |         25 |         25 |         20 |         70 |
+| /Users/circle/Desktop/foot_process/main.py                   | Python   |         24 |          6 |         10 |         40 |
+| /Users/circle/Desktop/foot_process/process_image.py          | Python   |         39 |         28 |         26 |         93 |
+| /Users/circle/Desktop/foot_process/split_image_vertically.py | Python   |         14 |         16 |         12 |         42 |
+| /Users/circle/Desktop/foot_process/test.py                   | Python   |         47 |         22 |         26 |         95 |
+| /Users/circle/Desktop/foot_process/test_main.py              | Python   |         18 |         12 |         10 |         40 |
+| Total                                                        |          |        185 |        125 |        118 |        428 |
++--------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -1,0 +1,8 @@
+"filename", "language", "Python", "pip requirements", "comment", "blank", "total"
+"/Users/circle/Desktop/foot_process/calculate_black_white_ratio.py", "Python", 0, 0, 0, -1, -1
+"/Users/circle/Desktop/foot_process/main.py", "Python", 4, 0, -1, 1, 4
+"/Users/circle/Desktop/foot_process/process_image.py", "Python", 0, 0, 0, -1, -1
+"/Users/circle/Desktop/foot_process/requirements.txt", "pip requirements", 0, 7, 0, 0, 7
+"/Users/circle/Desktop/foot_process/test.py", "Python", -22, 0, -19, -17, -58
+"/Users/circle/Desktop/foot_process/test_main.py", "Python", 9, 0, 4, -1, 12
+"Total", "-", -9, 7, -16, -19, -37

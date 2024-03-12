@@ -1,0 +1,12 @@
+"filename", "language", "Python", "Markdown", "pip requirements", "comment", "blank", "total"
+"/Users/circle/Desktop/foot_process/README.md", "Markdown", 0, 6, 0, 0, 2, 8
+"/Users/circle/Desktop/foot_process/calculate_black_white_ratio.py", "Python", 8, 0, 0, 12, 6, 26
+"/Users/circle/Desktop/foot_process/crop_plastic_board.py", "Python", 12, 0, 0, 16, 12, 40
+"/Users/circle/Desktop/foot_process/detect_foot_direction.py", "Python", 25, 0, 0, 25, 20, 70
+"/Users/circle/Desktop/foot_process/main.py", "Python", 31, 0, 0, 9, 12, 52
+"/Users/circle/Desktop/foot_process/process_image.py", "Python", 39, 0, 0, 28, 25, 92
+"/Users/circle/Desktop/foot_process/requirements.txt", "pip requirements", 0, 0, 7, 0, 0, 7
+"/Users/circle/Desktop/foot_process/split_image_vertically.py", "Python", 14, 0, 0, 16, 12, 42
+"/Users/circle/Desktop/foot_process/test.py", "Python", 25, 0, 0, 3, 9, 37
+"/Users/circle/Desktop/foot_process/test_main.py", "Python", 57, 0, 0, 15, 24, 96
+"Total", "-", 211, 6, 7, 124, 122, 470
