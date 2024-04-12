@@ -1,0 +1,22 @@
+"filename", "language", "Python", "Markdown", "pip requirements", "comment", "blank", "total"
+"/Users/circle/Desktop/foot_process/README.md", "Markdown", 0, -5, 0, 0, -1, -6
+"/Users/circle/Desktop/foot_process/calculate_black_white_ratio.py", "Python", -20, 0, 0, -11, -9, -40
+"/Users/circle/Desktop/foot_process/crop_plastic_board.py", "Python", -12, 0, 0, -16, -12, -40
+"/Users/circle/Desktop/foot_process/detect_foot_direction.py", "Python", -25, 0, 0, -25, -20, -70
+"/Users/circle/Desktop/foot_process/main.py", "Python", -35, 0, 0, -10, -11, -56
+"/Users/circle/Desktop/foot_process/process_image.py", "Python", -39, 0, 0, -28, -25, -92
+"/Users/circle/Desktop/foot_process/requirements.txt", "pip requirements", 0, 0, -7, 0, 0, -7
+"/Users/circle/Desktop/foot_process/split_image_vertically.py", "Python", -14, 0, 0, -16, -12, -42
+"/Users/circle/Desktop/foot_process/test.py", "Python", -27, 0, 0, -3, -9, -39
+"/Users/circle/Desktop/foot_process/test_main.py", "Python", -61, 0, 0, -16, -24, -101
+"/Users/circle/Desktop/project/foot_process/README.md", "Markdown", 0, 5, 0, 0, 1, 6
+"/Users/circle/Desktop/project/foot_process/calculate_black_white_ratio.py", "Python", 20, 0, 0, 11, 9, 40
+"/Users/circle/Desktop/project/foot_process/crop_plastic_board.py", "Python", 12, 0, 0, 16, 12, 40
+"/Users/circle/Desktop/project/foot_process/detect_foot_direction.py", "Python", 25, 0, 0, 25, 20, 70
+"/Users/circle/Desktop/project/foot_process/main.py", "Python", 35, 0, 0, 10, 11, 56
+"/Users/circle/Desktop/project/foot_process/process_image.py", "Python", 39, 0, 0, 28, 25, 92
+"/Users/circle/Desktop/project/foot_process/requirements.txt", "pip requirements", 0, 0, 7, 0, 0, 7
+"/Users/circle/Desktop/project/foot_process/split_image_vertically.py", "Python", 14, 0, 0, 16, 12, 42
+"/Users/circle/Desktop/project/foot_process/test.py", "Python", 27, 0, 0, 3, 9, 39
+"/Users/circle/Desktop/project/foot_process/test_main.py", "Python", 61, 0, 0, 16, 24, 101
+"Total", "-", 0, 0, 0, 0, 0, 0

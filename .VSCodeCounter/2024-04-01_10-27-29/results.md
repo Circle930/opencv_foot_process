@@ -1,22 +1,23 @@
 # Summary
 
-Date : 2024-03-11 15:04:03
+Date : 2024-04-01 10:27:29
 
-Directory /Users/circle/Desktop/foot_process
+Directory /Users/circle/Desktop/project/foot_process
 
-Total : 9 files,  220 codes, 137 comments, 142 blanks, all 499 lines
+Total : 10 files,  245 codes, 125 comments, 123 blanks, all 493 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| Python | 8 | 214 | 137 | 140 | 491 |
-| Markdown | 1 | 6 | 0 | 2 | 8 |
+| Python | 8 | 233 | 125 | 122 | 480 |
+| pip requirements | 1 | 7 | 0 | 0 | 7 |
+| Markdown | 1 | 5 | 0 | 1 | 6 |
 
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 9 | 220 | 137 | 142 | 499 |
+| . | 10 | 245 | 125 | 123 | 493 |
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
